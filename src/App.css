@@ -1,6 +1,5 @@
 .App {
     text-align: center;
-    display: grid;
 }
 
 .App-logo {
@@ -17,7 +16,7 @@
 .App-header {
     width: 100%;
     background-color: #282c34;
-    min-height: 10vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +38,8 @@
     }
 }
 
-.app-drop-down {
+.dropdown-toggle {
+    height: 100px;
     width: 100px;
     display: flex;
     align-items: center;
@@ -73,41 +73,20 @@
     margin-left: 200px;
     padding: 10px;
     position: absolute;
-    top: calc(100% + 5px);
-    min-width: 100%;
-    width: max-content;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    border-radius: 4px;
-    box-shadow: 0 0 5px #d4d4d4;
-    list-style: none;
-    overflow-y: auto;
+    bottom: 0%;
+    top: auto !important;
+    background-color: transparent;
+    border: 1px solid #3498db00;
+    color: #3498db;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    appearance: none;
+    transition: color 500s ease- in-out, background-color 500s ease-in-out,
+        border-color 500s ease-in-out;
 }
 
-.app-drop-down ul li {
-    background-color: white;
-    padding: 10px 30px;
-    cursor: pointer;
-    transition: background-color ease 0.2s;
-}
-
-.app-drop-down ul li.Title {
-    background-color: white;
-    padding: 5px 15px;
-}
-
-.app-drop-down ul li.Title:hover {
-    background-color: white;
-    color: black;
-}
-
-.app-drop-down ul li:hover {
-    background-color: lightgrey;
-    color: black;
-}
-
-.app-drop-down button:hover {
-    background-color: darkslategrey;
-    color: white;
+.dropdown-toggle::after {
+    content: none;
+    color: rgb(255, 255, 255);
+    appearance: none;
 }
