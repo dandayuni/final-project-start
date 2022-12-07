@@ -217,8 +217,8 @@ const Board: React.FC<BoardProps> = (props) => {
                             <div
                                 id="List"
                                 style={{
-                                    width: "300px",
-                                    height: "650px",
+                                    width: "500px",
+                                    height: "20px",
                                     marginRight: "20px",
                                     marginLeft: "20px",
                                     marginTop: "20px",
@@ -228,8 +228,8 @@ const Board: React.FC<BoardProps> = (props) => {
                             >
                                 <div
                                     style={{
-                                        width: "250px",
-                                        height: "250px",
+                                        width: "200px",
+                                        height: "200px",
                                         display: "flex",
                                         flexWrap: "wrap"
                                     }}

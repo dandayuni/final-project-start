@@ -34,8 +34,8 @@ export const DraggableBox: FC<RoomProps> = ({
     roomWidth,
     roomHeight
 }) => {
-    const picWidth: number = 80 * (1 + (parseInt(roomWidth) - 400) / 400);
-    const picHeight: number = 80 * (1 + (parseInt(roomHeight) - 400) / 400);
+    const picWidth = 50;
+    const picHeight = 50;
     const [{ isDragging }, drag] = useDrag({
         item: {
             type: ItemTypes.BOX,
