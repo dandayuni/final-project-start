@@ -5,8 +5,13 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+  console.log
+    {}
+
+      at Room (src/Room.tsx:80:13)
+
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (173 ms)
+  ✕ renders the course name somewhere (241 ms)
 
   ● renders the course name somewhere
 
@@ -179,8 +184,8 @@ FAIL src/App.test.tsx
 -------------------|---------|----------|---------|---------|----------------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s          
 -------------------|---------|----------|---------|---------|----------------------------
-All files          |   62.76 |       40 |   44.44 |   62.36 |                            
- src               |   62.36 |       40 |   44.44 |   61.95 |                            
+All files          |   60.78 |    36.84 |   44.44 |   60.39 |                            
+ src               |   60.39 |    36.84 |   44.44 |      60 |                            
   App.tsx          |     100 |      100 |     100 |     100 |                            
   Board.tsx        |   71.79 |       50 |      50 |   71.05 | 79,138-141,162-182,193-194 
   BoardSquare.tsx  |      75 |    66.66 |      50 |      75 | 18-19                      
@@ -188,7 +193,7 @@ All files          |   62.76 |       40 |   44.44 |   62.36 |
   DraggableBox.tsx |    12.5 |        0 |       0 |    12.5 | 10-11,37-51                
   Overlay.tsx      |      50 |      100 |       0 |      50 | 8                          
   Pic.tsx          |     100 |       50 |     100 |     100 | 23                         
-  Room.tsx         |   57.14 |      100 |   28.57 |   57.14 | 33-36,54,60-61,85          
+  Room.tsx         |      50 |       25 |   28.57 |      50 | 35-43,67,73-74,82,101      
   Square.tsx       |     100 |      100 |     100 |     100 |                            
   constants.ts     |     100 |      100 |     100 |     100 |                            
   game.ts          |       0 |        0 |       0 |       0 |                            
@@ -206,5 +211,5 @@ All files          |   62.76 |       40 |   44.44 |   62.36 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.339 s
+Time:        4.339 s
 Ran all test suites.
