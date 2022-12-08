@@ -27,7 +27,7 @@ const Pic: React.FC<PicProps> = (props) => {
                     textAlign: "center"
                 }}
             >
-                <img src={FurnitureItem.image} width="80" height="80" />
+                <img src={FurnitureItem.image} width="50" height="50" />
             </div>
         </Fragment>
     );
