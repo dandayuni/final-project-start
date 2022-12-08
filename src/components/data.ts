@@ -18,7 +18,6 @@ import type {
     STOVE,
     TOILET
 } from "./types";
-import bed from "../furnitures/single_bed.png";
 import roundsink from "../furnitures/round_sink.png";
 import bathtub from "../furnitures/bathtub.png";
 //import box from "../furnitures/box.png";
@@ -78,8 +77,8 @@ const Bathtub: BATHTUB = {
 const Chair: CHAIR = {
     id: "menu-chair",
     name: "Chair",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 10 * 3,
+    width: 10 * 3,
     top: 0,
     left: 0,
     image: chair
@@ -98,8 +97,8 @@ const CoffeeTable: COFFEETABLE = {
 const Couch: COUCH = {
     id: "menu-couch",
     name: "Couch",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 28 * 3,
+    width: 46 * 3,
     top: 0,
     left: 0,
     image: couch
@@ -138,8 +137,8 @@ const FlatTV: FLATTV = {
 const Fridge: FRIDGE = {
     id: "menu-fridge",
     name: "Fridge",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 18 * 3,
+    width: 28 * 3,
     top: 0,
     left: 0,
     image: fridge
@@ -148,8 +147,8 @@ const Fridge: FRIDGE = {
 const Lamp: LAMP = {
     id: "menu-lamp",
     name: "Lamp",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 12 * 3,
+    width: 12 * 3,
     top: 0,
     left: 0,
     image: lamp
@@ -158,8 +157,8 @@ const Lamp: LAMP = {
 const Plant: PLANT = {
     id: "menu-plant",
     name: "Plant",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 12 * 3,
+    width: 12 * 3,
     top: 0,
     left: 0,
     image: plant
@@ -178,8 +177,8 @@ const RectTable: RECTTABLE = {
 const RoundSink: ROUNDSINK = {
     id: "menu-round sink",
     name: "Round Sink",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 12 * 3,
+    width: 21 * 3,
     top: 0,
     left: 0,
     image: roundsink
@@ -188,8 +187,8 @@ const RoundSink: ROUNDSINK = {
 const RoundTable: ROUNDTABLE = {
     id: "menu-round table",
     name: "Round Table",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 28 * 3,
+    width: 28 * 3,
     top: 0,
     left: 0,
     image: roundtable
@@ -199,7 +198,7 @@ const SingleBed: SINGLEBED = {
     id: "menu-single bed",
     name: "Single Bed",
     height: 24 * 3,
-    width: 42 * 3,
+    width: 24 * 3,
     top: 0,
     left: 0,
     image: singlebed
@@ -208,8 +207,8 @@ const SingleBed: SINGLEBED = {
 const Sink: SINK = {
     id: "menu-sink",
     name: "Sink",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 12 * 3,
+    width: 21 * 3,
     top: 0,
     left: 0,
     image: sink
@@ -218,8 +217,8 @@ const Sink: SINK = {
 const SquareSink: SQUARESINK = {
     id: "menu-square sink",
     name: "Square Sink",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 12 * 3,
+    width: 21 * 3,
     top: 0,
     left: 0,
     image: squaresink
@@ -228,8 +227,8 @@ const SquareSink: SQUARESINK = {
 const Stove: STOVE = {
     id: "menu-stove",
     name: "Stove",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 12 * 3,
+    width: 21 * 3,
     top: 0,
     left: 0,
     image: stove
@@ -238,8 +237,8 @@ const Stove: STOVE = {
 const Toilet: TOILET = {
     id: "menu-toilet",
     name: "Toilet",
-    height: 24 * 3,
-    width: 42 * 3,
+    height: 10 * 3,
+    width: 16 * 3,
     top: 0,
     left: 0,
     image: toilet
