@@ -7,6 +7,8 @@ export interface BATHTUB {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface CHAIR {
@@ -18,6 +20,8 @@ export interface CHAIR {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface COFFEETABLE {
@@ -29,6 +33,8 @@ export interface COFFEETABLE {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface COUCH {
@@ -40,6 +46,8 @@ export interface COUCH {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface DINNERTABLE {
@@ -51,6 +59,8 @@ export interface DINNERTABLE {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface DOUBLEBED {
@@ -62,6 +72,8 @@ export interface DOUBLEBED {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface FLATTV {
@@ -73,6 +85,8 @@ export interface FLATTV {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface FRIDGE {
@@ -84,6 +98,8 @@ export interface FRIDGE {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface LAMP {
@@ -95,6 +111,8 @@ export interface LAMP {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface PLANT {
@@ -106,6 +124,8 @@ export interface PLANT {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface RECTTABLE {
@@ -117,6 +137,8 @@ export interface RECTTABLE {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface ROUNDSINK {
@@ -128,6 +150,8 @@ export interface ROUNDSINK {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface ROUNDTABLE {
@@ -139,6 +163,8 @@ export interface ROUNDTABLE {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface SINGLEBED {
@@ -150,6 +176,8 @@ export interface SINGLEBED {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface SINK {
@@ -161,6 +189,8 @@ export interface SINK {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface SQUARESINK {
@@ -172,6 +202,8 @@ export interface SQUARESINK {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface STOVE {
@@ -183,6 +215,8 @@ export interface STOVE {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export interface TOILET {
@@ -194,6 +228,8 @@ export interface TOILET {
     left: number;
     // color: string;
     image: string;
+    types: string;
+    price: number;
 }
 
 export type FurnitureObjects =
