@@ -1,7 +1,10 @@
 export interface Furniture {
+    id: string;
     name: string;
-    id: number;
     price: number;
     image: string;
-    color: string;
+    left: number;
+    top: number;
+    width: number;
+    height: number;
 }
