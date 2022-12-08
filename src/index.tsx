@@ -1,19 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-//import Board from "./Board";
-import "./index.css";
-//import { observe } from "./game";
+import "./styles/index.css";
+import Layout from "./Layout";
 import reportWebVitals from "./reportWebVitals";
-//import { BoxMap } from "./Interfaces/BoxMap";
-import App from "./App";
 
-//const [plates, setPlates] = useState<BoxMap[]>([]);
 ReactDOM.render(
     <React.StrictMode>
-        <div>
-            <App />
-        </div>
+        <Layout />
     </React.StrictMode>,
     document.getElementById("root")
 );

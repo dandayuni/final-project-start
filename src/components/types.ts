@@ -1,222 +1,217 @@
-export interface Bathtub {
-    png: number;
+export interface BATHTUB {
     id: string;
-    name: "bathtub";
+    name: "Bathtub";
+    top: number;
+    height: number;
+    width: number;
+    left: number;
+    // color: string;
+    image: string;
+}
+
+export interface CHAIR {
+    id: string;
+    name: "Chair";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface Chair {
+export interface COFFEETABLE {
     id: string;
-    name: "chair";
+    name: "Coffee Table";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface CoffeTable {
+export interface COUCH {
     id: string;
-    name: "coffetable";
+    name: "Couch";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface Couch {
+export interface DINNERTABLE {
     id: string;
-    name: "couch";
+    name: "Dinner Table";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface DinnerTable {
+export interface DOUBLEBED {
     id: string;
-    name: "dinnertable";
+    name: "Double Bed";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface DoubleBed {
+export interface FLATTV {
     id: string;
-    name: "doublebed";
+    name: "Flatscreen TV";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface FlatTV {
+export interface FRIDGE {
     id: string;
-    name: "flattv";
+    name: "Fridge";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface Fridge {
+export interface LAMP {
     id: string;
-    name: "fridge";
+    name: "Lamp";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface Lamp {
+export interface PLANT {
     id: string;
-    name: "lamp";
+    name: "Plant";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface Plant {
+export interface RECTTABLE {
     id: string;
-    name: "plant";
+    name: "Rectangle Table";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface RectangleTable {
+export interface ROUNDSINK {
     id: string;
-    name: "rectangletable";
+    name: "Round Sink";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface RoundSink {
+export interface ROUNDTABLE {
     id: string;
-    name: "roundsink";
+    name: "Round Table";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface RoundTable {
+export interface SINGLEBED {
     id: string;
-    name: "roundtable";
+    name: "Single Bed";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface SingleBed {
+export interface SINK {
     id: string;
-    name: "singlebed";
+    name: "Sink";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface SquareSink {
+export interface SQUARESINK {
     id: string;
-    name: "squaresink";
+    name: "Square Sink";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface Stove {
+export interface STOVE {
     id: string;
-    name: "stove";
+    name: "Stove";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export interface Toilet {
+export interface TOILET {
     id: string;
-    name: "toilet";
+    name: "Toilet";
     height: number;
     width: number;
     top: number;
     left: number;
-    color: string;
-    image?: File;
-    price: number;
+    // color: string;
+    image: string;
 }
 
-export type Furniture =
-    | Bathtub
-    | Chair
-    | CoffeTable
-    | Couch
-    | DinnerTable
-    | DoubleBed
-    | FlatTV
-    | Fridge
-    | Lamp
-    | Plant
-    | RectangleTable
-    | RoundSink
-    | RoundTable
-    | SquareSink
-    | Stove
-    | Toilet;
+export type FurnitureObjects =
+    | BATHTUB
+    | CHAIR
+    | COFFEETABLE
+    | COUCH
+    | DINNERTABLE
+    | DOUBLEBED
+    | FLATTV
+    | FRIDGE
+    | LAMP
+    | PLANT
+    | RECTTABLE
+    | ROUNDSINK
+    | ROUNDTABLE
+    | SINGLEBED
+    | SINK
+    | SQUARESINK
+    | STOVE
+    | TOILET;

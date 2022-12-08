@@ -5,10 +5,14 @@ type SquareProps = {
 };
 
 const Square: React.FC<SquareProps> = (props) => {
+    const fill = props.black ? "black" : "white";
+    const stroke = props.black ? "white" : "black";
+
     return (
         <div
             style={{
-                color: "black",
+                backgroundColor: fill,
+                color: stroke,
                 width: "100%",
                 height: "100%"
             }}
