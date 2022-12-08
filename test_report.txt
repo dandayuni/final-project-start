@@ -5,13 +5,8 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-  console.log
-    {}
-
-      at Room (src/Room.tsx:80:13)
-
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (241 ms)
+  ✕ renders the course name somewhere (51 ms)
 
   ● renders the course name somewhere
 
@@ -23,16 +18,9 @@ FAIL src/App.test.tsx
         [36m<div[39m
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
-          [36m<div>[39m
-            [36m<div>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mstyle[39m=[32m"background-color: orange;"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mRoom1[0m
-              [36m</button>[39m
-            [36m</div>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"App-header"[39m
+          [36m>[39m
             [36m<div[39m
               [33mclass[39m=[32m"container"[39m
             [36m>[39m
@@ -42,126 +30,51 @@ FAIL src/App.test.tsx
                 [36m<div[39m
                   [33mclass[39m=[32m"col"[39m
                 [36m>[39m
-                  [36m<div[39m
-                    [33mid[39m=[32m"Furniture-list-buttons"[39m
-                    [33mstyle[39m=[32m"margin-right: 20px; margin-left: 20px; margin-top: 20px;"[39m
+                  [36m<img[39m
+                    [33mheight[39m=[32m"100"[39m
+                    [33msrc[39m=[32m"UDormLogo.png"[39m
+                    [33mwidth[39m=[32m"150"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mstyle[39m=[32m"margin-top: 60px;"[39m
+                    [33mtype[39m=[32m"button"[39m
                   [36m>[39m
-                    [36m<button[39m
-                      [33mclass[39m=[32m"btn btn-primary"[39m
-                      [33mstyle[39m=[32m"background-color: blue;"[39m
-                      [33mtype[39m=[32m"button"[39m
-                    [36m>[39m
-                      [0mFurniture List[0m
-                    [36m</button>[39m
-                  [36m</div>[39m
-                  [36m<div[39m
-                    [33mid[39m=[32m"List"[39m
-                    [33mstyle[39m=[32m"width: 300px; height: 650px; margin-right: 20px; margin-left: 20px; margin-top: 20px; float: left; background-color: white;"[39m
+                    [0mHome[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mstyle[39m=[32m"margin-top: 60px;"[39m
+                    [33mtype[39m=[32m"button"[39m
                   [36m>[39m
-                    [36m<div[39m
-                      [33mstyle[39m=[32m"width: 250px; height: 250px; display: flex; flex-wrap: wrap;"[39m
-                    [36m>[39m
-                      [36m<div[39m
-                        [33mstyle[39m=[32m"width: 50%; height: 50%;"[39m
-                      [36m>[39m
-                        [36m<div[39m
-                          [33mstyle[39m=[32m"position: relative; width: 100%; height: 100%;"[39m
-                        [36m>[39m
-                          [36m<div[39m
-                            [33mstyle[39m=[32m"color: black; width: 100%; height: 100%;"[39m
-                          [36m>[39m
-                            [36m<div>[39m
-                              [36m<div[39m
-                                [33mdraggable[39m=[32m"true"[39m
-                                [33mstyle[39m=[32m"opacity: 1; font-size: 50px; font-weight: bold; cursor: move; text-align: center;"[39m
-                              [36m>[39m
-                                [36m<img[39m
-                                  [33mheight[39m=[32m"80"[39m
-                                  [33msrc[39m=[32m"bathtub.png"[39m
-                                  [33mwidth[39m=[32m"80"[39m
-                                [36m/>[39m
-                              [36m</div>[39m
-                            [36m</div>[39m
-                          [36m</div>[39m
-                        [36m</div>[39m
-                      [36m</div>[39m
-                      [36m<div[39m
-                        [33mstyle[39m=[32m"width: 50%; height: 50%;"[39m
-                      [36m>[39m
-                        [36m<div[39m
-                          [33mstyle[39m=[32m"position: relative; width: 100%; height: 100%;"[39m
-                        [36m>[39m
-                          [36m<div[39m
-                            [33mstyle[39m=[32m"color: black; width: 100%; height: 100%;"[39m
-                          [36m>[39m
-                            [36m<div>[39m
-                              [36m<div[39m
-                                [33mdraggable[39m=[32m"true"[39m
-                                [33mstyle[39m=[32m"opacity: 1; font-size: 50px; font-weight: bold; cursor: move; text-align: center;"[39m
-                              [36m>[39m
-                                [36m<img[39m
-                                  [33mheight[39m=[32m"80"[39m
-                                  [33msrc[39m=[32m"coffee_table.png"[39m
-                                  [33mwidth[39m=[32m"80"[39m
-                                [36m/>[39m
-                              [36m</div>[39m
-                            [36m</div>[39m
-                          [36m</div>[39m
-                        [36m</div>[39m
-                      [36m</div>[39m
-                      [36m<div[39m
-                        [33mstyle[39m=[32m"width: 50%; height: 50%;"[39m
-                      [36m>[39m
-                        [36m<div[39m
-                          [33mstyle[39m=[32m"position: relative; width: 100%; height: 100%;"[39m
-                        [36m>[39m
-                          [36m<div[39m
-                            [33mstyle[39m=[32m"color: black; width: 100%; height: 100%;"[39m
-                          [36m>[39m
-                            [36m<div>[39m
-                              [36m<div[39m
-                                [33mdraggable[39m=[32m"true"[39m
-                                [33mstyle[39m=[32m"opacity: 1; font-size: 50px; font-weight: bold; cursor: move; text-align: center;"[39m
-                              [36m>[39m
-                                [36m<img[39m
-                                  [33mheight[39m=[32m"80"[39m
-                                  [33msrc[39m=[32m"couch.png"[39m
-                                  [33mwidth[39m=[32m"80"[39m
-                                [36m/>[39m
-                              [36m</div>[39m
-                            [36m</div>[39m
-                          [36m</div>[39m
-                        [36m</div>[39m
-                      [36m</div>[39m
-                      [36m<div[39m
-                        [33mstyle[39m=[32m"width: 50%; height: 50%;"[39m
-                      [36m>[39m
-                        [36m<div[39m
-                          [33mstyle[39m=[32m"position: relative; width: 100%; height: 100%;"[39m
-                        [36m>[39m
-                          [36m<div[39m
-                            [33mstyle[39m=[32m"color: black; width: 100%; height: 100%;"[39m
-                          [36m>[39m
-                            [36m<div>[39m
-                              [36m<div[39m
-                                [33mdraggable[39m=[32m"true"[39m
-                                [33mstyle[39m=[32m"opacity: 1; font-size: 50px; font-weight: bold; cursor: move; text-align: center;"[39m
-                              [36m>[39m
-                                [36m<img[39m
-                                  [33mheight[39m=[32m"80"[39m
-                                  [33msrc[39m=[32m"dinner_table.png"[39m
-                                  [33mwidth[39m=[32m"80"[39m
-                                [36m/>[39m
-                              [36m</div>[39m
-                            [36m</div>[39m
-                          [36m</div>[39m
-                        [36m</div>[39m
-                      [36m</div>[39m
-                      [36m<div[39m
-                        [33mstyle[39m=[32m"width: 50%; height: 50%;"[39m
-                      [36m>[39m
-                        [36m<div[39m
-                          [33mstyle[39m=[32m"position: re...
+                    [0mCreate New Room[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mstyle[39m=[32m"margin-top: 60px;"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mView My Rooms[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</header>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -181,35 +94,32 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
--------------------|---------|----------|---------|---------|----------------------------
-File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s          
--------------------|---------|----------|---------|---------|----------------------------
-All files          |   60.78 |    36.84 |   44.44 |   60.39 |                            
- src               |   60.39 |    36.84 |   44.44 |      60 |                            
-  App.tsx          |     100 |      100 |     100 |     100 |                            
-  Board.tsx        |   71.79 |       50 |      50 |   71.05 | 79,138-141,162-182,193-194 
-  BoardSquare.tsx  |      75 |    66.66 |      50 |      75 | 18-19                      
-  Container.tsx    |   38.46 |      100 |      40 |   38.46 | 34-35,52-59,65             
-  DraggableBox.tsx |    12.5 |        0 |       0 |    12.5 | 10-11,37-51                
-  Overlay.tsx      |      50 |      100 |       0 |      50 | 8                          
-  Pic.tsx          |     100 |       50 |     100 |     100 | 23                         
-  Room.tsx         |      50 |       25 |   28.57 |      50 | 35-43,67,73-74,82,101      
-  Square.tsx       |     100 |      100 |     100 |     100 |                            
-  constants.ts     |     100 |      100 |     100 |     100 |                            
-  game.ts          |       0 |        0 |       0 |       0 |                            
- src/Interfaces    |       0 |        0 |       0 |       0 |                            
-  BoxMap.ts        |       0 |        0 |       0 |       0 |                            
-  DragItem.ts      |       0 |        0 |       0 |       0 |                            
-  RoomStatus.ts    |       0 |        0 |       0 |       0 |                            
-  furniture.ts     |       0 |        0 |       0 |       0 |                            
- src/components    |       0 |        0 |       0 |       0 |                            
-  data.ts          |       0 |        0 |       0 |       0 |                            
-  types.ts         |       0 |        0 |       0 |       0 |                            
- src/data          |     100 |      100 |     100 |     100 |                            
-  FurnitureList.ts |     100 |      100 |     100 |     100 |                            
--------------------|---------|----------|---------|---------|----------------------------
+--------------------|---------|----------|---------|---------|-------------------
+File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+--------------------|---------|----------|---------|---------|-------------------
+All files           |    0.85 |        0 |    2.77 |    0.86 |                   
+ src                |    2.85 |        0 |    7.14 |    2.94 |                   
+  App.tsx           |     100 |      100 |     100 |     100 |                   
+  Layout.tsx        |       0 |        0 |       0 |       0 | 20-100            
+  Overlay.tsx       |       0 |      100 |       0 |       0 | 7-8               
+  Pic.tsx           |       0 |        0 |       0 |       0 | 9-18              
+  Square.tsx        |       0 |        0 |       0 |       0 | 7-11              
+  constants.ts      |       0 |      100 |     100 |       0 | 1                 
+  game.ts           |       0 |        0 |       0 |       0 |                   
+ src/Interfaces     |       0 |        0 |       0 |       0 |                   
+  furniture.ts      |       0 |        0 |       0 |       0 |                   
+  room.ts           |       0 |        0 |       0 |       0 |                   
+ src/components     |       0 |        0 |       0 |       0 |                   
+  CanvasBoard.tsx   |       0 |        0 |       0 |       0 | 21-56             
+  FurnitureItem.tsx |       0 |        0 |       0 |       0 | 13-76             
+  ItemList.tsx      |       0 |      100 |       0 |       0 | 9-13              
+  ObjectItem.tsx    |       0 |        0 |       0 |       0 | 13-76             
+  RoomBoard.tsx     |       0 |        0 |       0 |       0 | 17-52             
+  data.ts           |       0 |      100 |     100 |       0 | 68-248            
+  types.ts          |       0 |        0 |       0 |       0 |                   
+--------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.339 s
+Time:        2.657 s
 Ran all test suites.
