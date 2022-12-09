@@ -73,7 +73,7 @@ const Bathtub: BATHTUB = {
     left: 0,
     image: bathtub,
     types: "bathroom",
-    price: 0
+    price: 300
 };
 
 const Chair: CHAIR = {
@@ -85,7 +85,7 @@ const Chair: CHAIR = {
     left: 0,
     image: chair,
     types: "livingroom",
-    price: 0
+    price: 150
 };
 
 const CoffeeTable: COFFEETABLE = {
@@ -97,7 +97,7 @@ const CoffeeTable: COFFEETABLE = {
     left: 0,
     image: coffeetable,
     types: "livingroom",
-    price: 0
+    price: 200
 };
 
 const Couch: COUCH = {
@@ -109,7 +109,7 @@ const Couch: COUCH = {
     left: 0,
     image: couch,
     types: "livingroom",
-    price: 0
+    price: 400
 };
 
 const DinnerTable: DINNERTABLE = {
@@ -121,7 +121,7 @@ const DinnerTable: DINNERTABLE = {
     left: 0,
     image: dinnertable,
     types: "kitchen",
-    price: 0
+    price: 250
 };
 
 const DoubleBed: DOUBLEBED = {
@@ -133,7 +133,7 @@ const DoubleBed: DOUBLEBED = {
     left: 0,
     image: doublebed,
     types: "bedroom",
-    price: 0
+    price: 400
 };
 
 const FlatTV: FLATTV = {
@@ -145,7 +145,7 @@ const FlatTV: FLATTV = {
     left: 0,
     image: flattv,
     types: "electronics",
-    price: 0
+    price: 200
 };
 
 const Fridge: FRIDGE = {
@@ -157,7 +157,7 @@ const Fridge: FRIDGE = {
     left: 0,
     image: fridge,
     types: "kitchen",
-    price: 0
+    price: 300
 };
 
 const Lamp: LAMP = {
@@ -169,7 +169,7 @@ const Lamp: LAMP = {
     left: 0,
     image: lamp,
     types: "electronics",
-    price: 0
+    price: 50
 };
 
 const Plant: PLANT = {
@@ -181,7 +181,7 @@ const Plant: PLANT = {
     left: 0,
     image: plant,
     types: "decoration",
-    price: 0
+    price: 20
 };
 
 const RectTable: RECTTABLE = {
@@ -193,7 +193,7 @@ const RectTable: RECTTABLE = {
     left: 0,
     image: recttable,
     types: "livingroom",
-    price: 0
+    price: 100
 };
 
 const RoundSink: ROUNDSINK = {
@@ -205,7 +205,7 @@ const RoundSink: ROUNDSINK = {
     left: 0,
     image: roundsink,
     types: "bathroom/kitchen",
-    price: 0
+    price: 100
 };
 
 const RoundTable: ROUNDTABLE = {
@@ -217,7 +217,7 @@ const RoundTable: ROUNDTABLE = {
     left: 0,
     image: roundtable,
     types: "livingroom",
-    price: 0
+    price: 200
 };
 
 const SingleBed: SINGLEBED = {
@@ -229,7 +229,7 @@ const SingleBed: SINGLEBED = {
     left: 0,
     image: singlebed,
     types: "bedroom",
-    price: 0
+    price: 300
 };
 
 const Sink: SINK = {
@@ -241,7 +241,7 @@ const Sink: SINK = {
     left: 0,
     image: sink,
     types: "kitchen/bathroom",
-    price: 0
+    price: 100
 };
 
 const SquareSink: SQUARESINK = {
@@ -253,7 +253,7 @@ const SquareSink: SQUARESINK = {
     left: 0,
     image: squaresink,
     types: "kitchen/bathroom",
-    price: 0
+    price: 100
 };
 
 const Stove: STOVE = {
@@ -265,7 +265,7 @@ const Stove: STOVE = {
     left: 0,
     image: stove,
     types: "kitchen",
-    price: 0
+    price: 600
 };
 
 const Toilet: TOILET = {
@@ -277,7 +277,7 @@ const Toilet: TOILET = {
     left: 0,
     image: toilet,
     types: "bathroom",
-    price: 0
+    price: 100
 };
 
 export const Furnitures = [

@@ -87,7 +87,7 @@ const Layout = () => {
         <DndProvider backend={HTML5Backend}>
             <div id="grid">
                 <div id="logo-container">
-                    <h3>Doll House Sim</h3>
+                    <h3>Room Design</h3>
                 </div>
                 <div
                     id="left-menu-container"
