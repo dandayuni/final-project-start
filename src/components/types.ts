@@ -1,6 +1,6 @@
 export interface BATHTUB {
     id: string;
-    name: "Bathtub";
+    name: string;
     top: number;
     height: number;
     width: number;
@@ -13,7 +13,7 @@ export interface BATHTUB {
 
 export interface CHAIR {
     id: string;
-    name: "Chair";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -26,7 +26,7 @@ export interface CHAIR {
 
 export interface COFFEETABLE {
     id: string;
-    name: "Coffee Table";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -39,7 +39,7 @@ export interface COFFEETABLE {
 
 export interface COUCH {
     id: string;
-    name: "Couch";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -52,7 +52,7 @@ export interface COUCH {
 
 export interface DINNERTABLE {
     id: string;
-    name: "Dinner Table";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -65,7 +65,7 @@ export interface DINNERTABLE {
 
 export interface DOUBLEBED {
     id: string;
-    name: "Double Bed";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -78,7 +78,7 @@ export interface DOUBLEBED {
 
 export interface FLATTV {
     id: string;
-    name: "Flatscreen TV";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -91,7 +91,7 @@ export interface FLATTV {
 
 export interface FRIDGE {
     id: string;
-    name: "Fridge";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -104,7 +104,7 @@ export interface FRIDGE {
 
 export interface LAMP {
     id: string;
-    name: "Lamp";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -117,7 +117,7 @@ export interface LAMP {
 
 export interface PLANT {
     id: string;
-    name: "Plant";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -130,7 +130,7 @@ export interface PLANT {
 
 export interface RECTTABLE {
     id: string;
-    name: "Rectangle Table";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -143,7 +143,7 @@ export interface RECTTABLE {
 
 export interface ROUNDSINK {
     id: string;
-    name: "Round Sink";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -156,7 +156,7 @@ export interface ROUNDSINK {
 
 export interface ROUNDTABLE {
     id: string;
-    name: "Round Table";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -169,7 +169,7 @@ export interface ROUNDTABLE {
 
 export interface SINGLEBED {
     id: string;
-    name: "Single Bed";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -182,7 +182,7 @@ export interface SINGLEBED {
 
 export interface SINK {
     id: string;
-    name: "Sink";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -195,7 +195,7 @@ export interface SINK {
 
 export interface SQUARESINK {
     id: string;
-    name: "Square Sink";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -208,7 +208,7 @@ export interface SQUARESINK {
 
 export interface STOVE {
     id: string;
-    name: "Stove";
+    name: string;
     height: number;
     width: number;
     top: number;
@@ -221,7 +221,7 @@ export interface STOVE {
 
 export interface TOILET {
     id: string;
-    name: "Toilet";
+    name: string;
     height: number;
     width: number;
     top: number;
