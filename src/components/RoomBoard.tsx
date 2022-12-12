@@ -29,7 +29,7 @@ const RoomBoard = ({
                 y: number;
             };
 
-            const left = Math.round(i.left + delta.x);
+            const left = Math.round(i.left);
             const top = Math.round(i.top + delta.y);
 
             if (i.id.includes("menu")) {
