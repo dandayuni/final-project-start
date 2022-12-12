@@ -88,19 +88,19 @@ const Layout = () => {
         <DndProvider backend={HTML5Backend}>
             <div id="grid">
                 <div id="logo-container">
-                    <h3>Doll House Sim</h3>
+                    <h3>Room Design</h3>
                 </div>
                 <div
                     id="left-menu-container"
-                    style={{ backgroundColor: "#2e57b8" }}
+                    style={{ backgroundColor: "#ffa100" }}
                 >
                     <Container>
                         <Row>
                             <Button
-                                style={{ backgroundColor: "#323f6c" }}
+                                style={{ backgroundColor: "ffa100" }}
                                 onClick={() => clearCanvasBoard()}
                             >
-                                Clear Canvas
+                                Clear Room
                             </Button>
                         </Row>
                         <ItemList />
