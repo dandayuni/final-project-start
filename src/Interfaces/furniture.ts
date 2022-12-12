@@ -7,4 +7,5 @@ export interface Furniture {
     top: number;
     width: number;
     height: number;
+    types: string;
 }

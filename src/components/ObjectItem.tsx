@@ -59,16 +59,13 @@ const ObjectItem = ({ item, removeFromCanvasBoard }: FurnitureItemProps) => {
             onMouseLeave={() => setIsHovered(false)}
         >
             <img style={{ width: "100%" }} src={item.image}></img>
-            <div style={{ width: "100%", height: "100%" }}>
+            <div style={{ width: "200%", height: "100%" }}>
                 {showDimensionsAndIcon && (
                     <>
+                        <br></br>
                         <p className="price-label">P: {price} Dollars</p>
-                        <p className="dimensions-label">
-                            H: {height / 3} inches
-                        </p>
-                        <p className="dimensions-label">
-                            W: {width / 3} inches
-                        </p>
+                        <p className="dimensions-label">H: {height / 3}</p>
+                        <p className="dimensions-label">W: {width / 3}</p>
                     </>
                 )}
                 {showDimensionsAndIcon && (

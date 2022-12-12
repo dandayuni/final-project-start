@@ -210,7 +210,7 @@ const CouchR: COUCH = {
 
 const DinnerTable: DINNERTABLE = {
     id: "menu-dinner table",
-    name: "Blue Dinner Table",
+    name: "Black Dinner Table",
     height: 24 * 3,
     width: 42 * 3,
     top: 0,
@@ -318,7 +318,7 @@ const FlatTVB: FLATTV = {
 
 const FlatTVG: FLATTV = {
     id: "menu-flatscreen tv",
-    name: "Black Flatscreen TV",
+    name: "Green Flatscreen TV",
     height: 24 * 3,
     width: 42 * 3,
     top: 0,

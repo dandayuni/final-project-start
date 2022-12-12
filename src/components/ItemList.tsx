@@ -14,14 +14,14 @@ const filters: Filter[] = [
     "livingroom",
     "bathroom",
     "kitchen",
-    "bedroom"
+    "bedroom",
+    "electronics"
 ];
 
 const ItemList = () => {
     const [filterChoice, setFilterChoice] = useState<Filter>("all");
-    const [filteredFurniture, setFilteredFurniture] = useState<
-        FurnitureObjects[]
-    >([]);
+    const [filteredFurniture, setFilteredFurniture] =
+        useState<FurnitureObjects[]>(Furnitures);
     const [isSorted, setIsSorted] = useState<boolean>(false);
 
     useEffect(() => {
@@ -38,7 +38,7 @@ const ItemList = () => {
 
         if (isSorted) {
             newFilteredFurniture = newFilteredFurniture.sort((a, b) =>
-                a.name.localeCompare(b.name)
+                a.types.localeCompare(b.types)
             );
         }
         setFilteredFurniture(newFilteredFurniture);
@@ -79,19 +79,50 @@ const ItemList = () => {
                 marginBottom: 10
             }}
             controlId="forSortedMode"
-        ></Form.Group>{" "}
+        >
+            <Form.Label style={{ fontSize: 18, color: "white" }}>
+                Sort By Color:
+            </Form.Label>
+            <Form.Switch
+                type="switch"
+                id="sorted-mode"
+                onChange={() => setIsSorted(!isSorted)}
+                checked={isSorted}
+            />
+        </Form.Group>
     </div>;
 
     return (
-        <div id="item-list">
-            {Furnitures.map((f: FurnitureObjects) => (
-                <div key={f.name}>
-                    <p className="item-label">
-                        {f.name.charAt(0).toUpperCase() + f.name.slice(1)}
-                    </p>
-                    <ObjectItem item={f} />
-                </div>
-            ))}
+        <div>
+            <div id="item-list">
+                <Form.Group controlId="forFurnitureSelection">
+                    <Form.Label
+                        style={{
+                            fontSize: 24,
+                            color: "white",
+                            fontWeight: "bold",
+                            marginTop: 24
+                        }}
+                    >
+                        Furniture Type:
+                    </Form.Label>
+                    <Form.Select value={filterChoice} onChange={updateFilter}>
+                        {filters.map((option: string) => (
+                            <option key={option} value={option}>
+                                {option}
+                            </option>
+                        ))}
+                    </Form.Select>
+                </Form.Group>
+                {filteredFurniture.map((f: FurnitureObjects) => (
+                    <div key={f.name}>
+                        <p className="item-label">
+                            {f.name.charAt(0).toUpperCase() + f.name.slice(1)}
+                        </p>
+                        <ObjectItem item={f} />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

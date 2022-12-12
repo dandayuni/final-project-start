@@ -11,7 +11,7 @@ interface FurnitureItemProps {
 }
 
 const FurnitureItem = ({ item, removeFromRoomBoard }: FurnitureItemProps) => {
-    const { id, name, price, image, left, top, width, height } = item;
+    const { id, name, price, image, left, top, width, height, types } = item;
     const [position, setPosition] = useState({ top: top, left: left });
     const [isHovered, setIsHovered] = useState(false);
 
@@ -30,7 +30,8 @@ const FurnitureItem = ({ item, removeFromRoomBoard }: FurnitureItemProps) => {
             top: id.includes("list") ? position.top : top,
             height,
             width,
-            image
+            image,
+            types
         },
         collect: (monitor) => ({
             isDragging: !!monitor.isDragging()
@@ -61,12 +62,8 @@ const FurnitureItem = ({ item, removeFromRoomBoard }: FurnitureItemProps) => {
             <div style={{ width: "100%", height: "100%" }}>
                 {showDimensionsAndIcon && (
                     <>
-                        <p className="dimensions-label">
-                            H: {height / 3} inches
-                        </p>
-                        <p className="dimensions-label">
-                            W: {width / 3} inches
-                        </p>
+                        <p className="dimensions-label">H: {height / 3}</p>
+                        <p className="dimensions-label">W: {width / 3}</p>
                     </>
                 )}
                 {showDimensionsAndIcon && (

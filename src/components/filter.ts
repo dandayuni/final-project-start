@@ -1,1 +1,7 @@
-export type Filter = "all" | "livingroom" | "bathroom" | "kitchen" | "bedroom";
+export type Filter =
+    | "all"
+    | "livingroom"
+    | "bathroom"
+    | "kitchen"
+    | "bedroom"
+    | "electronics";
