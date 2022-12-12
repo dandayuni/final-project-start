@@ -2,9 +2,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useEffect, useState, ReactDOM } from "react";
 import { useDrag } from "react-dnd";
+import { Filter } from "./filter";
 
 import type { Furniture } from "../Interfaces/furniture";
-
 interface FurnitureItemProps {
     item: Furniture;
     removeFromRoomBoard?: (id: string) => void;
