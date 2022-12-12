@@ -33,11 +33,33 @@ const CanvasBoard = ({
                 y: number;
             };
 
-            const left = Math.round(i.left + delta.x);
-            const top = Math.round(i.top + delta.y);
-
+            const canvasBorder = document
+                .getElementById("canvas")
+                ?.getBoundingClientRect();
+            const r = canvasBorder ? canvasBorder.right : 0;
+            const l = canvasBorder ? canvasBorder.left : 0;
+            const b = canvasBorder ? canvasBorder.bottom : 0;
+            const t = canvasBorder ? canvasBorder.top : 0;
+            //const left = Math.round(i.left + delta.x);
+            let left = 0;
+            if (i.left + i.width + delta.x >= r) {
+                left = r - i.width;
+            } else if (i.left + delta.x <= l) {
+                left = l;
+            } else {
+                left = i.left + delta.x;
+            }
+            //const top = Math.round(i.top + delta.y);
+            let top = 0;
+            if (i.top + delta.y <= t) {
+                top = t;
+            } else if (i.top + i.height + delta.y >= b) {
+                top = b - i.height;
+            } else {
+                top = i.top + delta.y;
+            }
             if (i.id.includes("menu")) {
-                addToCanvasBoard(i, left, top);
+                addToCanvasBoard(i, l, t);
             } else {
                 moveItems(i.id, left, top);
             }
