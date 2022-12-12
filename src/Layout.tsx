@@ -11,6 +11,7 @@ import CanvasBoard from "./components/CanvasBoard";
 
 import "./styles/Layout.css";
 import "./styles/index.css";
+import { Furnitures, Kitchen, Bathroom, Bedroom } from "./components/data";
 
 interface SavedCanvas {
     id: number;
@@ -105,7 +106,30 @@ const Layout = () => {
                         <ItemList />
                     </Container>
                 </div>
-                <div id="top-menu-container"></div>
+                <div id="top-menu-container">
+                    <Container>
+                        <Col>
+                            <Button
+                                style={{ backgroundColor: "#323f6c" }}
+                                onClick={() => ItemList2()}
+                            >
+                                Bathroom
+                            </Button>
+                            <Button
+                                style={{ backgroundColor: "#323f6c" }}
+                                onClick={() => ItemList3()}
+                            >
+                                Bedroom
+                            </Button>
+                            <Button
+                                style={{ backgroundColor: "#323f6c" }}
+                                onClick={() => ItemList4()}
+                            >
+                                Kitchen/Living Room
+                            </Button>
+                        </Col>
+                    </Container>
+                </div>
                 <div id="main-board-container">
                     <CanvasBoard
                         itemsInCanvasBoard={itemsInCanvasBoard}

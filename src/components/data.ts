@@ -264,3 +264,31 @@ export const Furnitures = [
     Stove,
     Toilet
 ];
+
+export const Bathroom = [Bathtub, Sink, Toilet, RoundSink, Plant, Lamp];
+
+export const Kitchen = [
+    CoffeeTable,
+    FlatTV,
+    RectTable,
+    RoundTable,
+    Fridge,
+    Plant,
+    Lamp,
+    Couch,
+    DinnerTable,
+    Sink,
+    Chair,
+    Stove
+];
+
+export const Bedroom = [
+    SingleBed,
+    DoubleBed,
+    RoundTable,
+    Lamp,
+    Plant,
+    FlatTV,
+    Chair,
+    RectTable
+];
