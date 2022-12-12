@@ -9,13 +9,6 @@ function App(): JSX.Element {
                 <Container>
                     <Row>
                         <Col>
-                            <img
-                                src={require("./images/UDormLogo.png")}
-                                width="150"
-                                height="100"
-                            />
-                        </Col>
-                        <Col>
                             <Button style={{ marginTop: "60px" }}>Home</Button>
                         </Col>
                         <Col>
