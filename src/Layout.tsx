@@ -116,6 +116,7 @@ const Layout = () => {
                         addToCanvasBoard={addToCanvasBoard}
                         removeFromCanvasBoard={removeFromCanvasBoard}
                     />
+                    Total Cost:
                 </div>
             </div>
         </DndProvider>
