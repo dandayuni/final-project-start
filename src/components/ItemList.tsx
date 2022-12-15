@@ -104,7 +104,7 @@ const ItemList = () => {
                             marginTop: 24
                         }}
                     >
-                        Furniture Type:
+                        Filter:
                     </Form.Label>
                     <Form.Select value={filterChoice} onChange={updateFilter}>
                         {filters.map((option: string) => (
