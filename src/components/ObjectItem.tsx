@@ -63,9 +63,9 @@ const ObjectItem = ({ item, removeFromCanvasBoard }: FurnitureItemProps) => {
                 {showDimensionsAndIcon && (
                     <>
                         <br></br>
-                        <p className="price-label">P: {price} Dollars</p>
-                        <p className="dimensions-label">H: {height / 3}</p>
-                        <p className="dimensions-label">W: {width / 3}</p>
+                        <p className="price-label">P: ${price}</p>
+                        <p className="dimensions-label">L: {height / 2} in</p>
+                        <p className="dimensions-label">W: {width / 2} in</p>
                     </>
                 )}
                 {showDimensionsAndIcon && (
