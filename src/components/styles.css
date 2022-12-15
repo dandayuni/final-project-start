@@ -9,9 +9,10 @@
 }
 
 #canvas {
-    height: 400px;
-    width: 684px;
+    height: 568px;
+    width: 969px;
     border: 1px solid black;
+    background-image: url("floor.png");
     z-index: 10;
 }
 
