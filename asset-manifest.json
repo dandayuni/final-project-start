@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-project-start/static/css/main.cb917c9e.css",
-    "main.js": "/final-project-start/static/js/main.65e13cdf.js",
+    "main.css": "/final-project-start/static/css/main.735aba7c.css",
+    "main.js": "/final-project-start/static/js/main.3c9609eb.js",
     "static/js/787.4ef7427d.chunk.js": "/final-project-start/static/js/787.4ef7427d.chunk.js",
     "static/media/floor.png": "/final-project-start/static/media/floor.f2cfaa5e418dfd1574cc.png",
     "static/media/coffee_table_G.png": "/final-project-start/static/media/coffee_table_G.0cf038bc6eb37bb06f8c.png",
@@ -49,12 +49,12 @@
     "static/media/rectangle_table_R.png": "/final-project-start/static/media/rectangle_table_R.1979026c96e173d89911.png",
     "static/media/rectangle_table_B.png": "/final-project-start/static/media/rectangle_table_B.beb3f31bd88dc3838398.png",
     "index.html": "/final-project-start/index.html",
-    "main.cb917c9e.css.map": "/final-project-start/static/css/main.cb917c9e.css.map",
-    "main.65e13cdf.js.map": "/final-project-start/static/js/main.65e13cdf.js.map",
+    "main.735aba7c.css.map": "/final-project-start/static/css/main.735aba7c.css.map",
+    "main.3c9609eb.js.map": "/final-project-start/static/js/main.3c9609eb.js.map",
     "787.4ef7427d.chunk.js.map": "/final-project-start/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb917c9e.css",
-    "static/js/main.65e13cdf.js"
+    "static/css/main.735aba7c.css",
+    "static/js/main.3c9609eb.js"
   ]
 }
