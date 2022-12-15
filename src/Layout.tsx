@@ -92,12 +92,12 @@ const Layout = () => {
                 </div>
                 <div
                     id="left-menu-container"
-                    style={{ backgroundColor: "#ffa100" }}
+                    style={{ backgroundColor: "#ffcc73" }}
                 >
                     <Container>
                         <Row>
                             <Button
-                                style={{ backgroundColor: "ffa100" }}
+                                //style={{ backgroundColor: "ffa100" }}
                                 onClick={() => clearCanvasBoard()}
                             >
                                 Clear Room
@@ -116,7 +116,6 @@ const Layout = () => {
                         addToCanvasBoard={addToCanvasBoard}
                         removeFromCanvasBoard={removeFromCanvasBoard}
                     />
-                    Total Cost:
                 </div>
             </div>
         </DndProvider>

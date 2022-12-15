@@ -53,7 +53,7 @@ const ItemList = () => {
             <Form.Label
                 style={{
                     fontSize: 24,
-                    color: "white",
+                    color: "black",
                     fontWeight: "bold",
                     marginTop: 24
                 }}
@@ -99,7 +99,7 @@ const ItemList = () => {
                     <Form.Label
                         style={{
                             fontSize: 24,
-                            color: "white",
+                            color: "black",
                             fontWeight: "bold",
                             marginTop: 24
                         }}
